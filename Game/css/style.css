@@ -1,0 +1,59 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background: linear-gradient(rgb(243, 135, 12) 0%, rgba(252, 70, 107, 1) 100%);
+  padding: 1em;
+}
+
+.wrapp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+form {
+  display: flex;
+  gap: 1em;
+}
+
+input {
+  border: none;
+  width: 100%;
+  background: transparent;
+}
+
+#btn {
+  width: 50px;
+  height: 50px;
+}
+
+.field {
+  border: 10px solid rgb(0, 255, 149);
+  height: 800px;
+  width: 1600px;
+  padding: 1em;
+  position: relative;
+}
+
+.clicks,
+p {
+  font-size: 2em;
+  color: white;
+}
+
+.div {
+  width: 100px;
+  height: 100px;
+  background-color: rgba(13, 236, 13, 0.472);
+  transition: all 0.9s;
+  cursor: pointer;
+  position: absolute;
+}
